@@ -25,8 +25,8 @@ for skill, level in SKILLS.items():
 
 c1, c2, c3 = st.columns(3)
 with c1:
-    st.metrics(label="Number of Projects", value=len(PROJECTS))
+    st.metric(label="Number of Projects", value=len(PROJECTS))
 with c2:
-    st.metrics(label="Number of Skills", value=len(SKILLS))
+    st.metric(label="Number of Skills", value=len(SKILLS))
 with c3:
-    st.metrics(label="Best Skill", value=best_s, delta=f"{max}/100")
+    st.metric(label="Best Skill", value=best_s, delta=f"{max}/100")
