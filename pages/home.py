@@ -10,8 +10,8 @@ with right:
     st.write(PROFILE["about"])
     st.write(PROFILE['city'])
     st.write(PROFILE['email'])
-    with open("assets/cv.pdf", "rb") as f:
-        st.download_button("Download my CV", f, file_name="cv.pdf")
+    with open("assets/CV.pdf", "rb") as f:
+        st.download_button("Download my CV", f, file_name="CV.pdf")
 
 
 st.divider()
