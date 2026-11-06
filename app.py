@@ -6,8 +6,9 @@ st.set_page_config(page_title=PROFILE["name"], page_icon=":briefcase:", layout="
 with st.sidebar: # everything in this block goes to the sidebar
     st.image("assets/photo.png", width=120)
     st.markdown(f"### {PROFILE['name']}")
-    st.markdown(f"#### [Github Profile](https://github.com/farahmprojects)")
-    st.markdown(f"#### [LinkedIn Profile](https://www.linkedin.com/in/farah-moutaki-a05477421/)")
+    #ajout d'un lien vers mon github et d'un lien vesr mon linkedin
+    st.markdown(f"### [Github Profile](https://github.com/farahmprojects)")
+    st.markdown(f"### [LinkedIn Profile](https://www.linkedin.com/in/farah-moutaki-a0547742)")
 
 pages = [st.Page("pages/home.py", title="About me", icon=":material/person:", default=True),
          st.Page("pages/projects.py", title="Projects", icon=":material/code:"),
