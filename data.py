@@ -26,7 +26,7 @@ PROJECTS = [
 ]
 
 #coin timeline
-TIMELINE = [("2025 - 2027", "Master SIA, Universite Bourgogne Europe"), ("2022 - 2025", "Bachelor")]
+TIMELINE = [("2025 - 2027", "Master SIA, Universite Bourgogne Europe"), ("2022 - 2025", "Bachelor"), ("2021 - 2022", "Pass"), ("2019 - 2021", "Baccalaureate, SVT, LLCE and Mathematics options")]
 
 #Réponses aux questions: 
 #La structure Python utilisée est un dictionnaire pour le profil, les compétences et les projets, et une liste de tuples pour la chronologie. 
