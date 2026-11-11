@@ -56,5 +56,5 @@ with st.sidebar:
     st.metric("Session visits", st.session_state.visits)
 
 
-#run the selected page
+#run la page séléctionnée 
 pg.run()

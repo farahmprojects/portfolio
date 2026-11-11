@@ -39,7 +39,7 @@ with st.form("contact"):
     name=st.text_input("Your name")
     email=st.text_input("Your email")
     message=st.text_area("Your message")
-    sent=st.form_submit_button("Send") # True only on the run that follows the click
+    sent=st.form_submit_button("Send") #vrai seulement sur le run qui suit le click
 
 #vérif des messages reçus et affichage des messages d'erreur ou de succès si problems est vide
 if sent:

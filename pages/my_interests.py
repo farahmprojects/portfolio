@@ -3,8 +3,6 @@ from data import INTERESTS
 
 
 st.title("‧₊˚✿ My Interests ✿˚₊‧")
-
-
 st.subheader("A little collection of the things I enjoy, the hobbies I explore and the subjects that inspire me.")
 st.write("")
 
