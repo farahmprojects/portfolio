@@ -1,0 +1,21 @@
+[theme]
+base = "light"
+primaryColor = "#B76642"
+backgroundColor = "#F2E6D3"
+secondaryBackgroundColor = "#E5D3BC"
+textColor = "#493326"
+font = "serif"
+linkColor = "#A65336"
+
+
+[theme.sidebar]
+backgroundColor = "#493326"
+secondaryBackgroundColor = "#654431"
+textColor = "#F2E6D3"
+primaryColor = "#C39B59"
+linkColor = "#E8D6B8"
+
+
+#Réponse à la question: 
+#Lorsque le site est affiché sur un écran de téléphone, les colonnes se superposent verticalement au lieu d'être affichées côte à côte. 
+#Cela permet d'adapter la mise en page à la largeur réduite de l'écran et de faciliter la lecture et la navigation sur mobile.
