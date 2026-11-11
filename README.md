@@ -25,6 +25,16 @@ The portfolio is organized into seven sections:
 - **Pandas:** Data handling and visualization.
 - **Git & GitHub:** Version control and project hosting.
 
+## Bonus Feature — Session Visit Counter
+
+The portfolio includes an additional feature (Bonus 18) that counts the number of visits during the current session.
+
+This feature is implemented using Streamlit's `st.session_state`, which allows the application to maintain data across script reruns within the same user session.
+
+Each time the application reruns, the visit counter is incremented by one and displayed at the bottom of the sidebar, below the navigation pages.
+
+The counter is session-based and resets when a new session starts.
+
 ## Project Structure
 
 ```text
