@@ -1,11 +1,19 @@
 import streamlit as st
 from data import PROFILE
 
+
 st.set_page_config(
     page_title=PROFILE["name"],
     page_icon=":briefcase:",
     layout="wide"
 )
+
+
+#bonus d'ajout du compteur de visites de sessions 
+if "visits" not in st.session_state:
+    st.session_state.visits = 0
+st.session_state.visits += 1
+
 
 pages = [
     st.Page("pages/home.py", title="About me", icon=":material/person:", default=True),
@@ -17,8 +25,10 @@ pages = [
     st.Page("pages/contact.py", title="Contact me", icon=":material/mail:")
 ]
 
+
 #cache le menu de navigation par défaut
 pg = st.navigation(pages, position="hidden")
+
 
 with st.sidebar:
     st.markdown(f"### {PROFILE['name']} ⊹ ࣪ ˖")
@@ -38,6 +48,13 @@ with st.sidebar:
             label=page.title,
             icon=page.icon
         )
+
+
+    st.divider()
+
+
+    st.metric("Session visits", st.session_state.visits)
+
 
 #run the selected page
 pg.run()
